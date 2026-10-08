@@ -7,6 +7,20 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  name: '🇺🇸 美国 | USA #14'
+  network: ws
+  port: 2053
+  server: 185.220.249.44
+  servername: 185.220.249.44
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
+  ws-opts:
+    headers:
+      Host: es.fastmirror-labs.xyz
+    path: /ws-cdn1-vless
 - client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #15'
   network: ws
@@ -21,6 +35,12 @@ proxies:
     headers:
       Host: x.m-90.xyz
     path: /t.me/TEAMNETGRATISCOL
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1591...
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 20006
+  server: ss.042.node-for-bigairport.win
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -67,7 +87,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|2.9MB/s
+- name: 🇺🇸 美国 | USA 17
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 🇺🇸US_2|2.2MB/s
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
@@ -89,15 +117,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_4|1.7MB/s
+- name: 🇺🇸US_5|4.0MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_5|1.2MB/s
+- name: 🇺🇸US_6|3.8MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -106,125 +134,79 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_6|3.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.3MB/s
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.1MB/s
+- name: 🇺🇸US_7|2.5MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|3.7MB/s
+- name: 🇺🇸US_8|2.0MB/s
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|2.6MB/s
   password: None
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|4.3MB/s
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|3.4MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|4.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|3.8MB/s
+- name: 🇺🇸US_10|3.2MB/s
   password: None
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|3.0MB/s
-  port: 8443
-  server: 45.145.73.240
+- name: 🇺🇸US_11|2.6MB/s
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_15|1.3MB/s
+- name: 🇺🇸US_12|1.1MB/s
   port: 443
-  server: 121.127.34.82
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_16|3.6MB/s
+- name: 🇺🇸US_13|2.8MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.2MB/s
   port: 443
-  server: 64.98.50.100
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_17|3.2MB/s
+- name: 🇺🇸US_15|2.4MB/s
   port: 443
-  server: 12.221.146.147
+  server: 162.244.227.36
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_18|1.6MB/s
+- name: 🇺🇸US_16|1.1MB/s
+  port: 8090
+  server: 24.142.229.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|2.1MB/s
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   port: 443
-  server: 192.227.176.234
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|1.6MB/s
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_20|2.1MB/s
-  port: 6060
-  server: 23.95.222.32
-  skip-cert-verify: true
-  type: socks5
-- name: 🇺🇸US_21|3.6MB/s
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_22|1.3MB/s
-  password: 'null'
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: 🇺🇸US_18|1.5MB/s
   port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_23|2.9MB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_24|1.3MB/s
-  port: 443
-  server: 44.228.137.206
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
@@ -438,28 +420,6 @@ proxies:
     headers:
       Host: x.m-90.xyz
     path: t.me/TEAMNETGRATISCOL
-- name: 🇺🇸 美国 | USA 17
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  name: '🇺🇸 美国 | USA #14'
-  network: ws
-  port: 2053
-  server: 185.220.249.44
-  servername: 185.220.249.44
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
-  ws-opts:
-    headers:
-      Host: es.fastmirror-labs.xyz
-    path: /ws-cdn1-vless
 - name: '🇺🇸 美国 | USA #8'
   password: '!!str 123456'
   port: 2096

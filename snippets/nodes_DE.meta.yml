@@ -19,17 +19,22 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  port: 2083
+  server: 141.98.7.193
+  servername: 141.98.7.193
+  tls: true
+  type: vless
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
   port: 45021
   server: 31.77.148.89
   tls: false
   type: vless
   uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
-  ws-opts:
-    path: /
 - client-fingerprint: safari
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
   network: ws
   port: 8443
   server: 45.89.190.245
@@ -42,7 +47,7 @@ proxies:
       Host: de.gokonstantin.com
     path: /cdnws
 - client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
   network: ws
   port: 443
   server: 167.179.103.224
@@ -54,6 +59,13 @@ proxies:
     headers:
       Host: s3ws.ragingbull.de5.net
     path: /wsrb7k2m
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇩🇪 德国 | DEU #4'
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  port: 443
+  server: 47.85.168.157
+  type: ss
+  udp: true
 - name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: UX82473651
   port: 443
@@ -72,6 +84,61 @@ proxies:
   skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|3.9MB/s
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+  xudp: true
+- name: 🇩🇪DE_2|1.2MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|2.1MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|3.4MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.3MB/s
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.3MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
 - cipher: aes-256-cfb
   name: '🇩🇪 德国 | DEU #1'
   password: amazonskr05
@@ -79,48 +146,6 @@ proxies:
   server: 18.196.88.40
   type: ss
   udp: true
-- name: 🇩🇪DE_2|1.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|3.5MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.4MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.1MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.6MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.6MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|2.6MB/s
-  port: 443
-  server: 31.77.19.92
-  skip-cert-verify: true
-  type: socks5
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -137,13 +162,6 @@ proxies:
     headers:
       Host: SEPAHA1.global.ssl.fastly.net
     path: /
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪 德国 | DEU #4'
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  port: 443
-  server: 47.85.168.157
-  type: ss
-  udp: true
 - encryption: mlkem768x25519plus.native.0rtt.bq1M9Mo7StSetydCuYnVBzGMeKNBRamRZfzcZEiulEY
   http-opts:
     headers:
