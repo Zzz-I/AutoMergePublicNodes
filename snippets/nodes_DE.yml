@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1592...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  type: ss
 - name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: UX82473651
   port: 443
@@ -17,17 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-- cipher: aes-256-cfb
-  name: '🇩🇪 德国 | DEU #1'
-  password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇩🇪 德国 | DEU #7'
-  password: amazonskr05
-  port: 443
-  server: 3.75.231.76
-  type: ss
-  udp: true
