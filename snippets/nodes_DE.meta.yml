@@ -9,6 +9,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🇩🇪190697 | ⚡️Telegram = t.me/S...
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  port: 443
+  server: 188.241.241.33
+  skip-cert-verify: true
+  sni: dehy.bbobr.win
+  tls: false
+  type: hysteria2
+- name: '@GozargahAzad|🇩🇪 #1'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: mai.song69.fun
+  sni: ''
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -19,23 +34,59 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- encryption: none
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: safa.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4975ba8b-7378-468b-b1be-e2f274c62e97
+  ws-opts:
+    headers:
+      Host: pannn1.global.ssl.fastly.net
+    path: /?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  port: 443
+  server: 212.100.171.154
+  tls: false
+  type: vless
+  uuid: a5ce10af-5e95-4eb3-ab87-bf4f95cb059b
 - client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  network: ws
+  port: 20202
+  server: 209.38.238.229
+  servername: wzs.echo.net.eu.org
+  tls: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  ws-opts:
+    headers:
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  port: 443
+  server: 150.241.79.232
+  tls: false
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   port: 2083
   server: 141.98.7.193
-  servername: 141.98.7.193
   tls: true
   type: vless
   uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
-  network: tcp
-  port: 45021
-  server: 31.77.148.89
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+  port: 443
+  server: 31.76.35.27
   tls: false
   type: vless
-  uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
 - client-fingerprint: safari
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 8443
   server: 45.89.190.245
@@ -59,59 +110,28 @@ proxies:
   port: 443
   server: 47.85.168.157
   type: ss
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: UX82473651
-  port: 443
-  server: meet-goshawk.rooster465.autos
-  sni: meet-goshawk.rooster465.autos
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.21
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-- name: 🇩🇪DE_1|1.6MB/s
+- name: 🇩🇪DE_2|1.1MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|2.9MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇩🇪DE_3|1.1MB/s
   port: 9002
-  server: 158.173.154.2
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.7MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|4.3MB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.7MB/s
+- name: 🇩🇪DE_4|1.6MB/s
   port: 9443
-  server: 213.177.229.161
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.8MB/s
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
@@ -122,7 +142,7 @@ proxies:
   name: '🇩🇪 德国 | DEU #1'
   network: ws
   port: 443
-  server: saas.sin.fan
+  server: 162.159.135.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -131,50 +151,31 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #3'
-  network: xhttp
-  port: 2083
-  server: 104.16.14.245
-  servername: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 2
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #2'
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 602e8e0a-8334-4e23-a5e8-bdb089656236
-  xhttp-opts:
-    host: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
-    mode: auto
-    path: /images/avatar/load
-    x-padding-bytes: 100-1000
-- name: '🇩🇪 德国 | DEU #4'
-  network: tcp
-  port: 2087
-  server: vpn.cyrionflare.xyz
-  tls: false
-  type: vless
-  udp: true
-  uuid: 15f434b8-aaec-4306-98c9-dd8f5ef608d4
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: vpn.cyrionflare.xyz
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
-  network: xhttp
-  port: 443
-  server: 104.26.5.45
-  servername: malekhartoaaakhund.kirpeople2sepahkosnaneh.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 647b4505-5549-4da6-b7e8-29df4df342de
-  xhttp-opts:
-    host: malekhartoaaakhund.kirpeople2sepahkosnaneh.org
-    mode: auto
-    path: /api/v1/cdn
-    x-padding-bytes: 100-1000
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
